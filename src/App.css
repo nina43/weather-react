@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+.info ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.info ul li {
+  line-height: 1.5;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
