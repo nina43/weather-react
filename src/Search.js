@@ -57,6 +57,13 @@ export default function Search() {
             <img src={weather.icon} alt="weather icon" />
           </li>
         </ul>
+        <a
+          href="https://github.com/nina43/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced on GitHub
+        </a>
       </div>
     );
   } else {
